@@ -13,6 +13,7 @@ const users = [
     {id:"4" , name: "mukramin " , email : "mukramin1234@gmail.com"},
 ]
 
+console.log(5+9)
 app.get('/users', (req , res ) => {
     res.send (users);
 })
